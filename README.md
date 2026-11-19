@@ -20,5 +20,4 @@ Part of the multi-source TON_IoT pipeline. Same method, 10-second windows, hash-
 Val F1 0.848 | Test F1 0.875 | 35/35 export checks pass.
 Rare types (scanning, xss, injection) have almost no windows in val/test, so multi-class macro-F1 is not reliable.
 
-The `.joblib` model was saved with scikit-learn 1.9.1, lightgbm 4.7.0, xgboost 3.4.1, catboost 1.2.10; load it with matching versions.
-ME.md…]()
+The `.joblib` model 
