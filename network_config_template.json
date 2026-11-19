@@ -1,0 +1,20 @@
+{
+  "multiclass_model": null,
+  "binary_model": null,
+  "source": "TON_IoT_Network",
+  "n_records": null,
+  "anomaly_method": null,
+  "calibrated": false,
+  "threshold": 0.5,
+  "features": [],
+  "epoch": 10,
+  "window_seconds": null,
+  "classes": [
+    "Normal",
+    "Attack"
+  ],
+  "test_f1": null,
+  "val_f1": null,
+  "split_rule": "Stratified random 80/20 split at flow level; grouped into consecutive 100-flow row-order windows. No timestamp exists, so windows are not time-based.",
+  "block_windows": 100
+}
